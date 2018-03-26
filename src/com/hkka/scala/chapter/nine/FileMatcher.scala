@@ -26,7 +26,6 @@ object FileMatcher {
     val printToString = (e: String) => e.toString
     println(safeNPEGet("", printToString(_)))
     println(safeNPEGet("Magenta", printToString(_)))
-
     val safeNpeResult = currySafeNPE("RICHAPI") { printToString }
     println(safeNpeResult)
   }
