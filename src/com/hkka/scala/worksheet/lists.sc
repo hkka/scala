@@ -2,6 +2,7 @@ import scala.collection.immutable.HashSet
 
 val oneTwo = List(1, 2)
 val threeFour = List(3, 4)
+threeFour.filter(_ > 3)
 
 val oneTwoThreeFour = oneTwo ::: threeFour
 println(oneTwo + " and " + threeFour + " were not mutated.")

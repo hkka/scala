@@ -20,3 +20,5 @@ for (i <- 0 to 2)
 
 val numNames2 = Array.apply("zero", "one", "two")
 numNames2.length
+
+print("chapi" toUpperCase)
